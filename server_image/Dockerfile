@@ -1,4 +1,4 @@
-FROM ubuntu:wily
+FROM ubuntu:xenial
 MAINTAINER xorpd <xorpd@xorpd.net>
 
 
@@ -22,7 +22,7 @@ RUN \
 
 
 # Get fcatalog_server from github:
-RUN git clone https://github.com/xorpd/fcatalog_server.git
+RUN git clone https://github.com/movsb666/fcatalog_server.git
 
 WORKDIR /fcatalog_install/fcatalog_server
 
